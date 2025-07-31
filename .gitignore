@@ -5,6 +5,7 @@ venv/
 # Игнорировать кэш Python
 __pycache__/
 *.py[cod]
+.pytest_cache
 
 # Игнорировать файлы IDE
 .idea/
