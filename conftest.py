@@ -1,7 +1,7 @@
 import pytest
 from unittest.mock import Mock
-from praktikum.burger import Burger
-from tests.data import BUN_PARAMS, INGREDIENT_PARAMS
+from .praktikum.burger import Burger
+from .data import BUN_PARAMS, INGREDIENT_PARAMS
 
 #Подготовка булочки 
 @pytest.fixture(params=BUN_PARAMS)
